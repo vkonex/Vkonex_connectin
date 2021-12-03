@@ -1,0 +1,246 @@
+/* Common Css for verticle center column */
+.verticleCenter {
+    display: table;
+    height: 100%;
+}
+
+.verticleCenter [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+}
+@media(max-width: 991px){
+.verticleCenter {
+        display: inherit;
+    }
+    
+.verticleCenter [class*="col-"] {
+        float: inherit;
+        display: inherit;
+        vertical-align: inherit;
+        position: inherit;
+    } 
+}
+
+/* Custom Nav */
+
+.cstm-nav.navbar-default{
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.25);
+    border-bottom: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.cstm-nav.navbar-default .navbar-toggle{
+    margin-top: 18px;
+}
+.cstm-nav .navbar-brand img{
+    max-height: 45px;
+}
+.cstm-nav.navbar-default .navbar-nav{
+    padding: 12px 0 16px;
+}
+.cstm-nav.navbar-default .navbar-nav > li{
+    margin-left: 10px;
+}
+.cstm-nav.navbar-default .navbar-nav > li > a{
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+
+
+.cstm-nav.navbar-default .navbar-nav > li.active a{
+    color: #6dc7e1;
+    background-color: transparent;
+}
+.cstm-nav.navbar-default .navbar-nav > li a:hover{
+    color: #6dc7e1;
+    background-color: transparent;
+}
+.cstm-nav.navbar-default .navbar-nav > li a:focus{
+    color: #6dc7e1;
+    background-color: transparent;
+}
+
+.cstm-nav.navbar-default .navbar-nav > li.dropdown-menu > a{
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 36px;
+    color: #333 !important;
+}
+
+
+/* AI Banner */
+.aiBanner{
+    padding: 100px 0;
+    background: url(../../../../../themes/geo/assets/img/AI/transformation-hero.jpeg) center center no-repeat;
+    width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    color: #fff;
+    position: relative;
+}
+.overlay{
+    background: rgba(0,0,0,0.42);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.aiBanner h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.aiBanner p{
+    font-size: 22px;
+}
+.aiBanner .container{
+    min-height: 100%;
+    position: relative;
+}
+
+/* Service Block */
+.serviceBlock{
+    padding: 70px 0 0;
+}
+.serviceBlock p{
+    font-size: 16px;
+}
+.serviceBlock h2{
+    font-size: 18px;
+    font-weight: 400;
+}
+.serviceBlock h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.serviceBlock ul.cstm-list-inline{
+    margin: 0 -15px;
+    overflow: hidden;
+}
+.serviceBlock ul.cstm-list-inline li{
+    width: 20%;
+    display: inline-table;
+    padding: 0 15px 500px 15px;
+    margin: 10px -4px 10px 0;
+    border-right: 1px solid #cccccc;
+    margin-bottom: -500px;
+    position: relative;
+}
+.serviceBlock ul.cstm-list-inline li:after{
+    content: "";
+    width: 37px;
+    height: 35px;
+    display: table;
+    background: url(../../../../../themes/geo/assets/img/AI/transformations_arrow.jpg) center center no-repeat;
+    position: absolute;
+    top: 90px;
+    right: -18px;
+}
+
+.serviceBlock ul.cstm-list-inline li:last-child{
+    border-right: 0;
+}
+.serviceBlock ul.cstm-list-inline li:last-child:after{
+    display: none;
+}
+
+@media(max-width: 991px){
+    .serviceBlock ul.cstm-list-inline{
+        margin: 0 -15px;
+        overflow: hidden;
+    }
+    .serviceBlock ul.cstm-list-inline li{
+        width: 100%;
+        display: block;
+        padding: 15px;
+        margin: 20px 0;
+        border-right: 0px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        position: relative;
+    }
+    .serviceBlock ul.cstm-list-inline li:after{
+        content: "";
+        width: 37px;
+        height: 35px;
+        display: table;
+        background: url(../../../../../themes/geo/assets/img/AI/transformations_arrow.jpg) center center no-repeat;
+        position: absolute;
+        top: 100%;
+        right: 50%;
+        margin: -18px;
+        transform: rotate(90deg);
+    }
+    
+    .serviceBlock ul.cstm-list-inline li:last-child{
+        border-right: 0;
+        border-bottom: 0;
+
+    }
+
+}
+
+
+/* Industries Block */
+.industriesBlock{
+    padding: 70px 0 0;
+}
+.industriesBlock p{
+    font-size: 16px;
+}
+.industriesBlock h2{
+    font-size: 18px;
+    font-weight: 400;
+}
+.industriesBlock h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.industriesBlock .cntnt-block{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.25);
+    background: #fff;
+    display: table;
+    margin: 20px auto;
+}
+.industriesBlock .cntnt-block .cntnt{
+    padding: 0 15px 15px;
+}
+.industriesBlock .cntnt-block .cntnt img{
+    margin-bottom: 15px;
+}
+
+
+/* Support Block */
+.supportBlock{
+    padding: 70px 0;
+}
+.supportBlock .cntntBlock{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.25);
+    background: #fff;
+}
+.supportBlock .cntntBlock .cntnt{
+    padding: 0 15px 15px;
+}
+.supportBlock .cntntBlock .cntnt h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.supportBlock .cntntBlock .cntnt img{
+    margin-bottom: 15px;
+}
+.supportBlock .cntntBlock .cntnt-img{
+    width: 100%;
+}
+

@@ -1,0 +1,179 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Vkonex Connecting</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="themes/geo/assets/css/bootstrap.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="themes/geo/assets/css/geo-home.css" />
+    <link rel="stylesheet" href="themes/geo/assets/css/custom.css" />
+    <link rel="shortcut icon" href="images/favicon.jpg">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+    <body dir="ltr">
+<nav class="navbar navbar-default navbar-fixed-top cstm-nav">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">
+        <img src="images/vkonex_logo.png" alt="Landing AI" />
+    </a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+<section class="cstm-banner">
+    <div class="container">
+        <div class="row verticleCenter">
+            <div class="col-md-6">
+                <h1>Join your professional network</h1>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" alt="Join your professional network" src="themes/geo/assets/img/home-img.png" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="openJobs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="search-cta">
+                        <div class="job-finder-cta">
+                            <h2 class="job-finder-cta__header">
+                            Get your dream jobs and internships</h2>
+                        </div>
+                        <div class="suggested-search">
+                            <div class="etta-see-more-less-list">
+                                <h2 class="etta-see-more-less-list__header">
+                                 Suggested keywords
+                                </h2>
+
+                                <div class="see-more-less-list">
+                                    <input id="" class="show-more-less-state" type="checkbox" />
+
+                                    <ul class="etta-see-more-less-list__list">
+                                        <li class="suggested-search__pill see-more-less-list__list-item">
+                                            <a href="" class="pill" >Artificial Intelligence</a>
+                                        </li>
+                                        <li class="suggested-search__pill see-more-less-list__list-item">
+                                            <a href="#" class="pill">Data Science</a>
+                                        </li>
+                                        <li class="suggested-search__pill see-more-less-list__list-item">
+                                            <a href="" class="pill">Block Chain</a>
+                                        </li>
+                                        <li class="suggested-search__pill see-more-less-list__list-item">
+                                            <a href="" class="pill"> Software Engineering</a>
+                                        </li>
+                                        <li class="suggested-search__pill see-more-less-list__list-item">
+                                            <a href="" class="pill" >Sales</a>
+                                        </li>
+                                        <li class="suggested-search__pill see-more-less-list__list-item">
+                                            <a href="#" class="pill">Marketing</a>
+                                        </li>
+                                        <li class="suggested-search__pill see-more-less-list__list-item">
+                                            <a href="" class="pill">Digital Marketing</a>
+                                        </li>
+                                        <li class="suggested-search__pill see-more-less-list__list-item">
+                                            <a href="" class="pill"> Jobs</a>
+                                        </li>
+                                        <li class="suggested-search__pill see-more-less-list__list-item">
+                                            <a href="" class="pill" >E-Learning</a>
+                                        </li>
+                                        <li class="suggested-search__pill see-more-less-list__list-item">
+                                            <a href="#" class="pill">Jobs Assessment</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="postJobs">
+    <div class="container">
+        <div class="row verticleCenter">
+            <div class="col-md-5">
+                <h2>Post your jobs and internships and get your ideal candidate</h2>
+            </div>
+            <div class="col-md-7">
+                <a href="#">
+                    Post a job
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-12">
+                        <!-- <div class="nine_network">Vkonex's member directory: <span>a b c d e f g h i j k l m n o p q r s t u v w x y z</span> more Browse members by country.</div> -->
+                    </div>
+                    <div class=" col-md-3">
+                        <div class="footer_logo"> <img src="images/vkonex_logo.png">
+                          <p>vkonex © 2021. </p>
+                        </div>
+                    </div>
+                    <div class=" col-md-9">
+                        <div class="foot_menu">
+                            <!-- <a href="http://52.66.188.103/login">Login</a> 
+                            <a href="http://52.66.188.103/register">Register</a> --> 
+                            <a href="artificial-intelligence.html">Vkonex AI Research</a>
+                            <a href="javascript:void(0)">Blog</a> 
+                            <a href="javascript:void(0)">Careers</a>
+                            <a href="javascript:void(0)"> Advertising</a> 
+                            <a href="javascript:void(0)">Talent Solutions</a>
+                            <a href="javascript:void(0)">Small Business</a> 
+                            <a href="javascript:void(0)">Mobile</a>
+                            <a href="javascript:void(0)">Developers</a> 
+                            <a href="javascript:void(0)">Language</a>
+                            <a href="javascript:void(0)">User Agreement</a> 
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                            <a href="terms&conditions.html">Terms &amp; Conditions</a> 
+                            <a href="javascript:void(0)">Cookie Policy</a>
+                            <a href="javascript:void(0)">Copyright Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </body>
+</html>

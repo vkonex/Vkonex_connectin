@@ -1,0 +1,165 @@
+/* Edited by saurabh shrama on 05012021 at 1100 */
+
+/* Common Css for verticle center column */
+.verticleCenter {
+    display: table;
+    height: 100%;
+}
+
+.verticleCenter [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+}
+@media(max-width: 991px){
+.verticleCenter {
+        display: inherit;
+    }
+    
+.verticleCenter [class*="col-"] {
+        float: inherit;
+        display: inherit;
+        vertical-align: inherit;
+        position: inherit;
+    } 
+}
+
+
+/* Custom Nav */
+
+.cstm-nav.navbar-default{
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.25);
+    border-bottom: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.cstm-nav.navbar-default .navbar-toggle{
+    margin-top: 18px;
+}
+.cstm-nav .navbar-brand img{
+    max-height: 45px;
+}
+.cstm-nav.navbar-default .navbar-nav > li{
+    margin-left: 10px;
+}
+.cstm-nav.navbar-default .navbar-nav > li > a{
+    background: rgba(133, 13, 113, 0.8);
+    color: #fff;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 36px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+
+.cstm-nav.navbar-default .navbar-nav > li > a:hover{
+    background: #850d71;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 36px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+/* cstm-banner */
+.cstm-banner{
+    padding-top: 100px;
+    z-index: 1;
+}
+.cstm-banner h1{
+    font-size: 5rem;
+    font-family: sans-serif;
+    color: #81447c;
+    font-weight: 200;
+    line-height: 70px;
+}
+
+@media(max-width: 767px){
+    .cstm-banner{
+        padding-top: 80px;
+        z-index: 1;
+    }
+    .cstm-banner h1{
+        font-size: 2.5rem;
+        line-height: 40px;
+    }
+}
+
+
+
+/* Search Job's Section */
+.openJobs{
+    background: #faf9f7;
+    padding: 40px 0 100px;
+    position: relative;
+}
+
+.openJobs:before{
+    width: 100%;
+    height: 116px;
+    background: #faf9f7;
+    content: "";
+    display: table;
+    top: -103px;
+    position: absolute;
+    z-index: -1;
+}
+
+.see-more-less-list ul li a{
+    background: rgba(133, 13, 113, 0.8) !important;
+    color: #fff !important;
+}
+.see-more-less-list ul li a:hover{
+    background: #850d71 !important;
+    color: #fff !important;
+}
+
+@media(max-width: 767px){
+    .openJobs{
+        padding: 40px 0;
+    }
+}
+
+
+
+/* Post Job's */
+
+.postJobs{
+    background: #f1ece5;
+    padding: 70px 0;
+}
+
+.postJobs h2{
+    font-size: 4rem;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+    font-family: sans-serif;
+    color: #B24020;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.postJobs a{
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6);
+    line-height: 56px;
+    border-radius: 28px;
+    padding: 0 20px;
+    border: solid 1px rgba(0,0,0,0.6);
+    text-decoration: none;
+    display: inline-block;
+}
+.postJobs a:hover{
+    background: rgba(0,0,0,0.2);
+    color: rgba(0,0,0,0.9);
+}
+
+@media(max-width: 767px){
+    .postJobs{
+        padding: 40px 0;
+    }
+}
